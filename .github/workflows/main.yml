@@ -14,8 +14,8 @@ jobs:
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: cx-sivasai-reddy/joomscan
-          cx_tenant: reddysiva-sedemo
+          project_name: "cx-sivasai-reddy/joomscan"
+          cx_tenant: "reddysiva-sedemo"
           base_uri: https://mea.ast.checkmarx.net
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
